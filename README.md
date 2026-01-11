@@ -7,63 +7,46 @@ This repository is a comprehensive introduction to linear regression, designed t
 This repository contains 5 different linear regression projects:
 
 #### 1. Best Selling Video Games
-- **Data**: Various CSV files in `Best Selling Video Games/Data/`
-- **Notebook**: `Best Selling Video Games/Example.ipynb`
-- **Content**: Video game sales data and characteristics
-- **Objective**: Predict video game sales based on features
+- **Data**: Dataset CSV file in `/Data/best-selling video games of all time.csv`
+- **Notebook**: `Best Selling Video Games/Best Selling Video Game Prediction.ipynb`
+- **Content**: Linear Regression Model for Game Data with example Predictions.
+- **Objective**: This project demonstrates the practical application of linear regression machine learning techniques to analyze and predict video game sales using real-world data from the best-selling video games of all time.
 - **Status**: Ready for analysis
 
 #### 2. Energy Consumption
-- **Data**: Energy consumption dataset in `Example - Energy Consumption/Data/`
-- **Notebook**: `Example - Energy Consumption/Example - Energy Consumption.ipynb`
+- **Data**: Energy consumption train and test dataset in `Energy Consumption/Data`
+- **Notebook**: `Energy Consumption/Energy Consumption.ipynb`
 - **Content**: Energy usage patterns and consumption data
 - **Objective**: Predict energy consumption based on various factors
 - **Status**: Ready for analysis
 
 #### 3. Formula 1
-- **Data**: F1 racing data in `Formula 1/Data/`
-- **Notebook**: `Formula 1/Example - Formula 1.ipynb`
+- **Data**: Multiple datasets in CSV format located `Formula 1/Data`
+- **Notebook**: `Formula 1/Formula 1 Analysis.ipynb`
 - **Content**: Formula 1 race results and performance metrics
-- **Objective**: Predict race outcomes and performance
+- **Objective**: This analysis explores the critical relationship between qualifying performance, pit stop strategy, and final race outcomes using historical data from 1995 to the present.
 - **Status**: Ready for analysis
 
 #### 4. Pokémon
-- **Data**: Pokémon characteristics in `Pokémon/Data/`
+- **Data**: Pokémon characteristics in `Pokémon/Data/Pokemon.csv`
 - **Notebook**: `Pokémon/Pokémon Identification.ipynb`
 - **Content**: Pokémon stats and characteristics
 - **Objective**: Predict Pokémon stats based on other attributes
 - **Status**: Ready for analysis
 
 #### 5. Retail Sales Trends
-- **Data**: Sales data in `Retail Sales Trends/Data/`
+- **Data**: Sales data in `Retail Sales Trends/Data/Warehouse_and_Retail_Sales.csv`
 - **Notebook**: `Retail Sales Trends/Retail Sales Trends.ipynb`
-- **Content**: Retail sales patterns and trends
-- **Objective**: Predict future sales based on historical data
+- **Content**: This dataset contains large-scale operational data from a retail and warehouse sales system. It includes **sales volume**, **transfers**, and **supplier-product information**.
+- **Objective**: The **goal** is to predict the value of `RETAIL SALES` using machine learning and deep learning models.
 - **Status**: Ready for analysis
 
 ## Getting Started
 
 1. Clone this repository
-2. Install required Python packages for linear regression:
-   ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn jupyter statsmodels
-   ```
-3. Choose a project folder and open the corresponding Jupyter notebook
+2. Install required Python packages for linear regression,  note that each Notebook contains cell to install the dependencies, if required:   
+3. Choose a project folder and open the corresponding Jupyter notebook or in Google Collab
 4. Follow the analysis and experiment with different regression techniques
-
-## Linear Regression Concepts Covered
-
-- **Simple Linear Regression**: Single predictor variable
-- **Multiple Linear Regression**: Multiple predictor variables
-- **Polynomial Regression**: Non-linear relationships
-- **Regularization**: Ridge, Lasso, and Elastic Net
-- **Model Evaluation**: R², MSE, RMSE, MAE
-- **Assumptions**: Linearity, independence, homoscedasticity, normality
-
-## Requirements
-
-- Python 3.6 or higher
-- pandas, numpy, scikit-learn, matplotlib, seaborn, jupyter, statsmodels
 
 ## Project Structure
 
@@ -71,20 +54,25 @@ This repository contains 5 different linear regression projects:
 Linear-Regression/
 ├── README.md
 ├── Best Selling Video Games/
-│   ├── Example.ipynb
+│   ├── Best Selling Video Game Prediction.ipynb
 │   └── Data/
-├── Example - Energy Consumption/
-│   ├── Example - Energy Consumption.ipynb
+│	├── best-selling video games of all time.csv
+├── Energy Consumption/
+│   ├── Energy Consumption.ipynb
 │   └── Data/
+│	├── test_energy_data.csv
+│	├── train_energy_data.csv
 ├── Formula 1/
-│   ├── Example - Formula 1.ipynb
-│   └── Data/
+│   ├── Formula 1 Analysis.ipynb
+│   └── Data/ (14 dataset CSV files)
 ├── Pokémon/
 │   ├── Pokémon Identification.ipynb
 │   └── Data/
+│	├── Pokemon.csv
 └── Retail Sales Trends/
-    ├── Retail Sales Trends.ipynb
-    └── Data/
+│   ├── Retail Sales Trends.ipynb
+│   └── Data/
+│	├── Warehouse_and_Retail_Sales.csv    
 ```
 
 ## Tips for Success
